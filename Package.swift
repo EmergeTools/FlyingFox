@@ -1,11 +1,11 @@
-// swift-tools-version:5.8
+// swift-tools-version:5.9
 
 import PackageDescription
 
 let package = Package(
     name: "FlyingFox",
     platforms: [
-        .macOS(.v10_15), .iOS(.v13), .tvOS(.v13)
+      .macOS(.v10_15), .iOS(.v13), .tvOS(.v13), .watchOS(.v10)
     ],
     products: [
         .library(
